@@ -5,7 +5,7 @@
   <groupId>org.natan</groupId>
   <artifactId>excel-connector</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>ExcelDBConnector</name>
+  <name>ExcelConnector</name>
   <description>Support for Excel database connect</description>
   <properties>
     <java.version>11</java.version>
