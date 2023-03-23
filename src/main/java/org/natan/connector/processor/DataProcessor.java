@@ -1,4 +1,4 @@
-package org.natan.processor;
+package org.natan.connector.processor;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package org.natan.saver;
+package org.natan.connector.saver;
 
 import org.springframework.dao.DataAccessException;
 import org.springframework.data.jpa.repository.JpaRepository;

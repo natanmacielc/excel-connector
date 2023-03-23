@@ -1,4 +1,4 @@
-package org.natan.utils;
+package org.natan.connector.utils;
 
 import lombok.AccessLevel;
 import lombok.Getter;

@@ -1,4 +1,4 @@
-package org.natan.utils;
+package org.natan.connector.utils;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

@@ -4,27 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0d19f1b-24a1-4bf1-90c3-0c050973232a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/simple-it/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/simple-it/verify.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/natan/processor/DataProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/natan/reader/ExcelReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/natan/saver/DataSaver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/natan/utils/CollectionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/natan/utils/ExcelColumn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/natan/utils/ExcelObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/natan/utils/ExcelSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/natan/utils/ReflectedObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/natan/utils/TypeCaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/input/users.xlsx" afterDir="false" />
+    <list default="true" id="d0d19f1b-24a1-4bf1-90c3-0c050973232a" name="Changes" comment="initial commit: excel-connector 0.0.1-SNAPSHOT">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/natan/processor/DataProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/natan/connector/processor/DataProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/natan/reader/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/natan/connector/reader/ExcelReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/natan/saver/DataSaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/natan/connector/saver/DataSaver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/natan/utils/CollectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/natan/connector/utils/CollectionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/natan/utils/ExcelColumn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/natan/connector/utils/ExcelColumn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/natan/utils/ExcelObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/natan/connector/utils/ExcelObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/natan/utils/ExcelSheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/natan/connector/utils/ExcelSheet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/natan/utils/ReflectedObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/natan/connector/utils/ReflectedObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/natan/utils/TypeCaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/natan/connector/utils/TypeCaster.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,8 +88,16 @@
       <option name="presentableId" value="Default" />
       <updated>1679601293481</updated>
       <workItem from="1679601295013" duration="4150000" />
-      <workItem from="1679606197286" duration="2207000" />
+      <workItem from="1679606197286" duration="2620000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit: excel-connector 0.0.1-SNAPSHOT">
+      <created>1679611843718</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679611843718</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,5 +113,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit: excel-connector 0.0.1-SNAPSHOT" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit: excel-connector 0.0.1-SNAPSHOT" />
   </component>
 </project>

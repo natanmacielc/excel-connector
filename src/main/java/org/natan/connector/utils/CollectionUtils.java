@@ -1,4 +1,4 @@
-package org.natan.utils;
+package org.natan.connector.utils;
 
 import java.text.MessageFormat;
 import java.util.ArrayList;
